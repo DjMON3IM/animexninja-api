@@ -7,7 +7,7 @@ const port = 5000;
 
 app.use(cors());
 
-const baseURL = "https://gogoanime.ai/";
+const baseURL = "https://anitaku.to/";
 
 app.get("/api/home", (req, res) => {
   let info = {
